@@ -1,4 +1,4 @@
-# OOP-Assignments
+# OOP Assignments
 An archive of assignments completed during object oriented programming course.
 
 - Distance Calculator : 
