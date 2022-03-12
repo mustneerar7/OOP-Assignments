@@ -6,28 +6,28 @@ public class MyPointClass {
 
     private void calculateDistance(MyPointClass pointClass){
 
-        System.out.println("x2: " + this.x);
-        System.out.println("x1: " + pointClass.getX());
+        System.out.println("x2: " + pointClass.getX());
+        System.out.println("x1: " + this.x);
 
-        System.out.println("y2: " + this.y);
-        System.out.println("y1: " + pointClass.getY());
+        System.out.println("y2: " + pointClass.getY());
+        System.out.println("y1: " + this.y);
 
         distance = Math.sqrt(
-                (this.x - pointClass.getX())
-                        + (this.y - pointClass.getY())
+                (pointClass.getX() - this.x)
+                        + (pointClass.getY() - this.y)
         );
 
     }
-    private void calculateDistance(double x1, double y1){
+    private void calculateDistance(double x2, double y2){
 
-        System.out.println("x2: " + this.x);
-        System.out.println("x1: " + x1);
+        System.out.println("x2: " + x2);
+        System.out.println("x1: " + this.x);
 
-        System.out.println("y2: " + this.y);
-        System.out.println("y1: " + y1);
+        System.out.println("y2: " + y2);
+        System.out.println("y1: " + this.y);
 
         distance = Math.sqrt(
-                (this.x - x1) + (this.y - y1)
+                (x2 - this.x) + (y2 - this.y)
         );
 
     }
@@ -47,6 +47,7 @@ public class MyPointClass {
     public MyPointClass(MyPointClass pointClass){
         this.x = pointClass.getX();
         this.y = pointClass.getY();
+        this.distance = pointClass.distance;
     }
 
     //getters
