@@ -1,5 +1,5 @@
 # OOP-Assignments
-An archive of assignments completed while taking an object oriented programming course.
+An archive of assignments completed during object oriented programming course.
 
 - Distance Calculator : 
   Calculates distance between two points.
