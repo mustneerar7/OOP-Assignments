@@ -7,6 +7,6 @@ An archive of assignments completed during object oriented programming course.
 - ATM Machine :
   Simulates an ATM machine environment.
   
-  ## LAB Assignmnts
-  - Polynomials :
-    Manipulate provided polynomials.
+## LAB Assignmnts
+- Polynomials :
+  Manipulate provided polynomials.
