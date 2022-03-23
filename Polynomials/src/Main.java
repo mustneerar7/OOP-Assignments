@@ -22,7 +22,7 @@ public class Main {
         // after addition
         //System.out.println(polynomial);
 
-        System.out.println(Polynomial.addPolynomial(polynomial2, polynomial));
+        //System.out.println(Polynomial.addPolynomial(polynomial2, polynomial));
 
     }
     
