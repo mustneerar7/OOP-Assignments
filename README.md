@@ -10,3 +10,6 @@ An archive of assignments completed during object oriented programming course.
 ## LAB Assignmnts
 - Polynomials :
   Manipulate provided polynomials.
+  
+## LAB Exams
+- Midterm LAB exam.
