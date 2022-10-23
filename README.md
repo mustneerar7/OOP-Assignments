@@ -19,3 +19,4 @@ An archive of assignments completed during object oriented programming course.
   
 ## LAB Exams
 - Midterm LAB exam.
+- Terminal LAB exam.
